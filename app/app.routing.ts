@@ -12,8 +12,4 @@ export const routes: Routes = [
   {path: 'routeB', component: RouteBComponent}
 ];
 
-export const appRoutingProviders: any[] = [
-
-];
-
 export const routing = RouterModule.forRoot(routes);
